@@ -1,0 +1,25 @@
+<div class="group row">
+  <img src="/assets/Jacko's Logo.jpg" routerLink="/home" class="image" />
+  <div class="group_1 row">
+    <button igxButton="flat" igxRipple routerLink="/all-products" class="button_1">Tacos</button>
+    <button igxButton="flat" igxRipple class="button_1">Burritos</button>
+    <button igxButton="flat" igxRipple class="button_1">Quesadillas</button>
+    <button igxButton="flat" igxRipple class="button_1">Nachos</button>
+    <button igxButton="flat" igxRipple class="button_1">Drinks</button>
+    <button igxButton="flat" igxRipple class="button_1">Desserts</button>
+  </div>
+  <div class="group_2 row">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>search</igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>account_circle</igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple routerLink="/shopping-cart" class="button">
+      <igx-icon>shopping_cart</igx-icon>
+    </button>
+  </div>
+</div>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
